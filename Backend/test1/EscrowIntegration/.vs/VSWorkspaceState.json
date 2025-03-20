@@ -1,0 +1,12 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\bin",
+    "\\obj",
+    "\\obj\\Release",
+    "\\SmartContracts",
+    "\\SmartContracts\\compiled"
+  ],
+  "SelectedNode": "\\SmartContracts\\Escrow.sol",
+  "PreviewInSolutionExplorer": false
+}
