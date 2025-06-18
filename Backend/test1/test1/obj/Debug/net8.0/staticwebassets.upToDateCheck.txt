@@ -15,4 +15,5 @@ wwwroot\uploads\b4161b00-03cd-4181-bd6d-d8171c188372_e21d38b6-f316-4bb7-b82d-5ca
 wwwroot\uploads\c1c5461b-ef5c-4046-88b2-4ee52c42e435_dragon.png
 wwwroot\uploads\d1cdae9f-a5cb-4733-b7e9-ea05db16b08f_Bai 12. Cai dat driver cho may that SamSung.mp4
 wwwroot\uploads\d84469bc-4f68-4012-96c5-53dfd6dec320_cac-hang-ve-may-bay-banner.jpg
+wwwroot\uploads\ee812735-9957-4950-a92e-2bdf1e22ded4_arrow.jpg
 wwwroot\uploads\fb7a5a51-8853-4c95-b17a-ebec095d42a7_Bai 12. Cai dat driver cho may that SamSung.mp4

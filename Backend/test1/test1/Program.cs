@@ -124,9 +124,7 @@ builder.Services.AddHttpClient();
 builder.Services.AddMemoryCache();
 var app = builder.Build();
 
-//// S? d?ng CORS
 //app.UseCors("AllowAngular");
-// S? d?ng policy CORS v?a ??nh ngh?a
 app.UseCors("AllowAngularClient");
 // C?u hình pipeline HTTP request
 if (app.Environment.IsDevelopment())
@@ -134,7 +132,10 @@ if (app.Environment.IsDevelopment())
 	app.UseSwagger();
 	app.UseSwaggerUI();
 }
-
+app.MapControllerRoute(
+	name: "areas",
+	pattern: "{area:exists}/{controller=Home}/{action=Index}/{id?}"
+);
 // S? d?ng session tr??c middleware xác th?c
 app.UseSession();
 app.UseMiddleware<JwtRefreshTokenMiddleware>();

@@ -306,6 +306,24 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\d84469bc-4f68-4012-96c5-53dfd6dec320_cac-hang-ve-may-bay-banner.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\ee812735-9957-4950-a92e-2bdf1e22ded4_arrow.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>test1</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/test1</BasePath>
+      <RelativePath>uploads/ee812735-9957-4950-a92e-2bdf1e22ded4_arrow.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>254gi4reba</Fingerprint>
+      <Integrity>CnVLczluVdjk/OLvUk14cR1IQzfkOpX7yW2d+yI3pYM=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\ee812735-9957-4950-a92e-2bdf1e22ded4_arrow.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\fb7a5a51-8853-4c95-b17a-ebec095d42a7_Bai 12. Cai dat driver cho may that SamSung.mp4'))">
       <SourceType>Package</SourceType>
       <SourceId>test1</SourceId>

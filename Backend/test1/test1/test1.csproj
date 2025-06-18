@@ -4,6 +4,8 @@
     <TargetFramework>net8.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>1d273730-d989-42d7-ae7a-c0633ef0d00b</UserSecretsId>
+    <DockerDefaultTargetOS>Windows</DockerDefaultTargetOS>
   </PropertyGroup>
 
   <ItemGroup>
@@ -23,6 +25,7 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.21.0" />
     <PackageReference Include="Nethereum.Contracts" Version="4.29.0" />
     <PackageReference Include="Nethereum.Web3" Version="4.29.0" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
@@ -35,6 +38,8 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="Areas\admin\Data\" />
+    <Folder Include="Areas\admin\Models\" />
     <Folder Include="wwwroot\" />
   </ItemGroup>
 

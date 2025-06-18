@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EscrowIntegration")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d219f66f940fbdacad6fa85ad6ce7b1ceec95981")]
 [assembly: System.Reflection.AssemblyProductAttribute("EscrowIntegration")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EscrowIntegration")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

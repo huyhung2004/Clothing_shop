@@ -106,6 +106,96 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "test1.Areas.Admin.Controllers.BrandAPIController",
+    "Method": "GetAll",
+    "RelativePath": "api/brand",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "page",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "size",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "test1.Areas.Admin.Controllers.BrandAPIController",
+    "Method": "Create",
+    "RelativePath": "api/brand/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "brand",
+        "Type": "test1.Models.Brand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "test1.Areas.Admin.Controllers.BrandAPIController",
+    "Method": "Delete",
+    "RelativePath": "api/brand/Delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "test1.Areas.Admin.Controllers.BrandAPIController",
+    "Method": "Edit",
+    "RelativePath": "api/brand/Edit/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "brand",
+        "Type": "test1.Models.Brand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "test1.Areas.Admin.Controllers.BrandAPIController",
+    "Method": "Create",
+    "RelativePath": "api/brand/paged",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "brand",
+        "Type": "test1.Models.Brand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "test1.Controllers.CartAPIController",
     "Method": "GetCart",
     "RelativePath": "api/CartAPI",
@@ -230,6 +320,96 @@
       {
         "Name": "id",
         "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "test1.Areas.Admin.Controllers.CategoryAPIController",
+    "Method": "GetAll",
+    "RelativePath": "api/category",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "page",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "size",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "test1.Areas.Admin.Controllers.CategoryAPIController",
+    "Method": "Create",
+    "RelativePath": "api/category/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "category",
+        "Type": "test1.Models.Category",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "test1.Areas.Admin.Controllers.CategoryAPIController",
+    "Method": "Delete",
+    "RelativePath": "api/category/Delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "test1.Areas.Admin.Controllers.CategoryAPIController",
+    "Method": "Edit",
+    "RelativePath": "api/category/Edit/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "category",
+        "Type": "test1.Models.Category",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "test1.Areas.Admin.Controllers.CategoryAPIController",
+    "Method": "Create",
+    "RelativePath": "api/category/paged",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "category",
+        "Type": "test1.Models.Category",
         "IsRequired": true
       }
     ],
@@ -619,6 +799,22 @@
   },
   {
     "ContainingType": "Test.Controllers.MyAccountAPIController",
+    "Method": "HasReviewed",
+    "RelativePath": "api/MyAccountAPI/HasReviewed/{productId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "productId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Test.Controllers.MyAccountAPIController",
     "Method": "MyAccount",
     "RelativePath": "api/MyAccountAPI/MyAccount",
     "HttpMethod": "GET",
@@ -638,6 +834,95 @@
       {
         "Name": "model",
         "Type": "test1.Models.AccountModel.EditAddress",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Test.Controllers.MyAccountAPIController",
+    "Method": "UpdateReview",
+    "RelativePath": "api/MyAccountAPI/UpdateReview",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ProductId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Rating",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "ReviewText",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "MediaFiles",
+        "Type": "System.Collections.Generic.List\u00601[[Microsoft.AspNetCore.Http.IFormFile, Microsoft.AspNetCore.Http.Features, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "test1.Areas.Admin.Controllers.OrdersAPIController",
+    "Method": "GetAll",
+    "RelativePath": "api/order",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "page",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "size",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "test1.Areas.Admin.Controllers.OrdersAPIController",
+    "Method": "Delete",
+    "RelativePath": "api/order/Delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "test1.Areas.Admin.Controllers.OrdersAPIController",
+    "Method": "Edit",
+    "RelativePath": "api/order/Edit/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "order",
+        "Type": "test1.Models.Order",
         "IsRequired": true
       }
     ],
@@ -734,6 +1019,90 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "Test.Areas.Admin.Controllers.ProductsAPIController",
+    "Method": "GetAllProducts",
+    "RelativePath": "api/product/all",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Test.Areas.Admin.Controllers.ProductsAPIController",
+    "Method": "Create",
+    "RelativePath": "api/product/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "product",
+        "Type": "test1.Models.Product",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Test.Areas.Admin.Controllers.ProductsAPIController",
+    "Method": "Delete",
+    "RelativePath": "api/product/Delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Test.Areas.Admin.Controllers.ProductsAPIController",
+    "Method": "Edit",
+    "RelativePath": "api/product/Edit/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "product",
+        "Type": "test1.Models.Product",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Test.Areas.Admin.Controllers.ProductsAPIController",
+    "Method": "GetProducts",
+    "RelativePath": "api/product/paged",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "page",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "pageSize",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Test.Controllers.ProductApiController",
     "Method": "GetProductDetail",
     "RelativePath": "api/products/{id}",
@@ -778,6 +1147,126 @@
         "IsRequired": false
       }
     ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "test1.Areas.admin.Controllers.StatisticsController",
+    "Method": "GetAverageItemsPerOrder",
+    "RelativePath": "api/Statistics/average-items-per-order",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "test1.Areas.admin.Controllers.StatisticsController",
+    "Method": "GetAverageOrderValue",
+    "RelativePath": "api/Statistics/average-order-value",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "test1.Areas.admin.Controllers.StatisticsController",
+    "Method": "GetAverageOrdersToday",
+    "RelativePath": "api/Statistics/average-orders-today",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "test1.Areas.admin.Controllers.StatisticsController",
+    "Method": "GetOrdersByBrand",
+    "RelativePath": "api/Statistics/orders-by-brand",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "test1.Areas.admin.Controllers.StatisticsController",
+    "Method": "GetOrdersByCategory",
+    "RelativePath": "api/Statistics/orders-by-category",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "test1.Areas.admin.Controllers.StatisticsController",
+    "Method": "GetOrdersByDay",
+    "RelativePath": "api/Statistics/orders-by-day",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "test1.Areas.admin.Controllers.StatisticsController",
+    "Method": "GetOrdersByMonth",
+    "RelativePath": "api/Statistics/orders-by-month",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "test1.Areas.admin.Controllers.StatisticsController",
+    "Method": "GetOrdersByPaymentMethod",
+    "RelativePath": "api/Statistics/orders-by-payment-method",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "test1.Areas.admin.Controllers.StatisticsController",
+    "Method": "GetOrdersByShippingMethod",
+    "RelativePath": "api/Statistics/orders-by-shipping-method",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "test1.Areas.admin.Controllers.StatisticsController",
+    "Method": "GetOrdersByStatus",
+    "RelativePath": "api/Statistics/orders-by-status",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "test1.Areas.admin.Controllers.StatisticsController",
+    "Method": "GetTop5BestSellingProducts",
+    "RelativePath": "api/Statistics/top5-best-selling-products",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "test1.Areas.admin.Controllers.StatisticsController",
+    "Method": "GetTotalRevenue",
+    "RelativePath": "api/Statistics/total-revenue",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
     "ReturnTypes": []
   },
   {
@@ -857,5 +1346,89 @@
         "StatusCode": 200
       }
     ]
+  },
+  {
+    "ContainingType": "test1.Areas.Admin.Controllers.UsersAPIController",
+    "Method": "GetAll",
+    "RelativePath": "api/users",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "page",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "size",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "test1.Areas.Admin.Controllers.UsersAPIController",
+    "Method": "Create",
+    "RelativePath": "api/users/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "user",
+        "Type": "test1.Models.User",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "test1.Areas.Admin.Controllers.UsersAPIController",
+    "Method": "Delete",
+    "RelativePath": "api/users/Delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "test1.Areas.Admin.Controllers.UsersAPIController",
+    "Method": "Edit",
+    "RelativePath": "api/users/Edit/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updatedUser",
+        "Type": "test1.Models.User",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "test1.Areas.Admin.Controllers.UsersAPIController",
+    "Method": "GetMyFullName",
+    "RelativePath": "api/users/name",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
   }
 ]

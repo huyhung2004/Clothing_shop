@@ -1,38 +1,94 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\ASP.NET\\test1\\",
+  "WorkspaceRootPath": "C:\\Users\\Admin\\Downloads\\Clothing_shop\\Clothing_shop\\Backend\\test1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C63C6BB8-43A9-451E-9BDA-468B05975176}|test1\\test1.csproj|d:\\asp.net\\test1\\test1\\controllers\\checkoutapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C63C6BB8-43A9-451E-9BDA-468B05975176}|test1\\test1.csproj|solutionrelative:test1\\controllers\\checkoutapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C63C6BB8-43A9-451E-9BDA-468B05975176}|test1\\test1.csproj|d:\\asp.net\\test1\\test1\\controllers\\myaccountapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C63C6BB8-43A9-451E-9BDA-468B05975176}|test1\\test1.csproj|solutionrelative:test1\\controllers\\myaccountapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C63C6BB8-43A9-451E-9BDA-468B05975176}|test1\\test1.csproj|d:\\asp.net\\test1\\test1\\models\\accountmodel\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C63C6BB8-43A9-451E-9BDA-468B05975176}|test1\\test1.csproj|solutionrelative:test1\\models\\accountmodel\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C63C6BB8-43A9-451E-9BDA-468B05975176}|test1\\test1.csproj|d:\\asp.net\\test1\\test1\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C63C6BB8-43A9-451E-9BDA-468B05975176}|test1\\test1.csproj|solutionrelative:test1\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C63C6BB8-43A9-451E-9BDA-468B05975176}|test1\\test1.csproj|d:\\asp.net\\test1\\test1\\controllers\\accountapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C63C6BB8-43A9-451E-9BDA-468B05975176}|test1\\test1.csproj|solutionrelative:test1\\controllers\\accountapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C63C6BB8-43A9-451E-9BDA-468B05975176}|test1\\test1.csproj|d:\\asp.net\\test1\\test1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C63C6BB8-43A9-451E-9BDA-468B05975176}|test1\\test1.csproj|c:\\users\\admin\\downloads\\clothing_shop\\clothing_shop\\backend\\test1\\test1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C63C6BB8-43A9-451E-9BDA-468B05975176}|test1\\test1.csproj|solutionrelative:test1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C63C6BB8-43A9-451E-9BDA-468B05975176}|test1\\test1.csproj|d:\\asp.net\\test1\\test1\\service\\paypalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C63C6BB8-43A9-451E-9BDA-468B05975176}|test1\\test1.csproj|c:\\users\\admin\\downloads\\clothing_shop\\clothing_shop\\backend\\test1\\test1\\models\\qlbanquanaocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C63C6BB8-43A9-451E-9BDA-468B05975176}|test1\\test1.csproj|solutionrelative:test1\\models\\qlbanquanaocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C63C6BB8-43A9-451E-9BDA-468B05975176}|test1\\test1.csproj|c:\\users\\admin\\downloads\\clothing_shop\\clothing_shop\\backend\\test1\\test1\\service\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C63C6BB8-43A9-451E-9BDA-468B05975176}|test1\\test1.csproj|solutionrelative:test1\\service\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C63C6BB8-43A9-451E-9BDA-468B05975176}|test1\\test1.csproj|c:\\users\\admin\\downloads\\clothing_shop\\clothing_shop\\backend\\test1\\test1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C63C6BB8-43A9-451E-9BDA-468B05975176}|test1\\test1.csproj|solutionrelative:test1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C63C6BB8-43A9-451E-9BDA-468B05975176}|test1\\test1.csproj|c:\\users\\admin\\downloads\\clothing_shop\\clothing_shop\\backend\\test1\\test1\\handlers\\passwordhashhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C63C6BB8-43A9-451E-9BDA-468B05975176}|test1\\test1.csproj|solutionrelative:test1\\handlers\\passwordhashhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C63C6BB8-43A9-451E-9BDA-468B05975176}|test1\\test1.csproj|c:\\users\\admin\\downloads\\clothing_shop\\clothing_shop\\backend\\test1\\test1\\controllers\\accountapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C63C6BB8-43A9-451E-9BDA-468B05975176}|test1\\test1.csproj|solutionrelative:test1\\controllers\\accountapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C63C6BB8-43A9-451E-9BDA-468B05975176}|test1\\test1.csproj|c:\\users\\admin\\downloads\\clothing_shop\\clothing_shop\\backend\\test1\\test1\\controllers\\useraccountapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C63C6BB8-43A9-451E-9BDA-468B05975176}|test1\\test1.csproj|solutionrelative:test1\\controllers\\useraccountapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C63C6BB8-43A9-451E-9BDA-468B05975176}|test1\\test1.csproj|c:\\users\\admin\\downloads\\clothing_shop\\clothing_shop\\backend\\test1\\test1\\controllers\\loaispapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C63C6BB8-43A9-451E-9BDA-468B05975176}|test1\\test1.csproj|solutionrelative:test1\\controllers\\loaispapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C63C6BB8-43A9-451E-9BDA-468B05975176}|test1\\test1.csproj|c:\\users\\admin\\downloads\\clothing_shop\\clothing_shop\\backend\\test1\\test1\\controllers\\myaccountapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C63C6BB8-43A9-451E-9BDA-468B05975176}|test1\\test1.csproj|solutionrelative:test1\\controllers\\myaccountapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C63C6BB8-43A9-451E-9BDA-468B05975176}|test1\\test1.csproj|c:\\users\\admin\\downloads\\clothing_shop\\clothing_shop\\backend\\test1\\test1\\service\\contractservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C63C6BB8-43A9-451E-9BDA-468B05975176}|test1\\test1.csproj|solutionrelative:test1\\service\\contractservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C63C6BB8-43A9-451E-9BDA-468B05975176}|test1\\test1.csproj|c:\\users\\admin\\downloads\\clothing_shop\\clothing_shop\\backend\\test1\\test1\\service\\paypalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C63C6BB8-43A9-451E-9BDA-468B05975176}|test1\\test1.csproj|solutionrelative:test1\\service\\paypalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C63C6BB8-43A9-451E-9BDA-468B05975176}|test1\\test1.csproj|d:\\asp.net\\test1\\test1\\models\\payment\\refundrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C63C6BB8-43A9-451E-9BDA-468B05975176}|test1\\test1.csproj|solutionrelative:test1\\models\\payment\\refundrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C63C6BB8-43A9-451E-9BDA-468B05975176}|test1\\test1.csproj|c:\\users\\admin\\downloads\\clothing_shop\\clothing_shop\\backend\\test1\\test1\\service\\twilioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C63C6BB8-43A9-451E-9BDA-468B05975176}|test1\\test1.csproj|solutionrelative:test1\\service\\twilioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C63C6BB8-43A9-451E-9BDA-468B05975176}|test1\\test1.csproj|c:\\users\\admin\\downloads\\clothing_shop\\clothing_shop\\backend\\test1\\test1\\service\\paymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C63C6BB8-43A9-451E-9BDA-468B05975176}|test1\\test1.csproj|solutionrelative:test1\\service\\paymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C63C6BB8-43A9-451E-9BDA-468B05975176}|test1\\test1.csproj|c:\\users\\admin\\downloads\\clothing_shop\\clothing_shop\\backend\\test1\\test1\\controllers\\productapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C63C6BB8-43A9-451E-9BDA-468B05975176}|test1\\test1.csproj|solutionrelative:test1\\controllers\\productapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C63C6BB8-43A9-451E-9BDA-468B05975176}|test1\\test1.csproj|c:\\users\\admin\\downloads\\clothing_shop\\clothing_shop\\backend\\test1\\test1\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C63C6BB8-43A9-451E-9BDA-468B05975176}|test1\\test1.csproj|solutionrelative:test1\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C63C6BB8-43A9-451E-9BDA-468B05975176}|test1\\test1.csproj|c:\\users\\admin\\downloads\\clothing_shop\\clothing_shop\\backend\\test1\\test1\\controllers\\escrowcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C63C6BB8-43A9-451E-9BDA-468B05975176}|test1\\test1.csproj|solutionrelative:test1\\controllers\\escrowcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C63C6BB8-43A9-451E-9BDA-468B05975176}|test1\\test1.csproj|c:\\users\\admin\\downloads\\clothing_shop\\clothing_shop\\backend\\test1\\test1\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C63C6BB8-43A9-451E-9BDA-468B05975176}|test1\\test1.csproj|solutionrelative:test1\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C63C6BB8-43A9-451E-9BDA-468B05975176}|test1\\test1.csproj|c:\\users\\admin\\downloads\\clothing_shop\\clothing_shop\\backend\\test1\\test1\\controllers\\cartapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C63C6BB8-43A9-451E-9BDA-468B05975176}|test1\\test1.csproj|solutionrelative:test1\\controllers\\cartapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C63C6BB8-43A9-451E-9BDA-468B05975176}|test1\\test1.csproj|c:\\users\\admin\\downloads\\clothing_shop\\clothing_shop\\backend\\test1\\test1\\areas\\admin\\controllers\\ordersapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C63C6BB8-43A9-451E-9BDA-468B05975176}|test1\\test1.csproj|solutionrelative:test1\\areas\\admin\\controllers\\ordersapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C63C6BB8-43A9-451E-9BDA-468B05975176}|test1\\test1.csproj|c:\\users\\admin\\downloads\\clothing_shop\\clothing_shop\\backend\\test1\\test1\\areas\\admin\\controllers\\categoryapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C63C6BB8-43A9-451E-9BDA-468B05975176}|test1\\test1.csproj|solutionrelative:test1\\areas\\admin\\controllers\\categoryapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C63C6BB8-43A9-451E-9BDA-468B05975176}|test1\\test1.csproj|c:\\users\\admin\\downloads\\clothing_shop\\clothing_shop\\backend\\test1\\test1\\areas\\admin\\controllers\\brandapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C63C6BB8-43A9-451E-9BDA-468B05975176}|test1\\test1.csproj|solutionrelative:test1\\areas\\admin\\controllers\\brandapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C63C6BB8-43A9-451E-9BDA-468B05975176}|test1\\test1.csproj|c:\\users\\admin\\downloads\\clothing_shop\\clothing_shop\\backend\\test1\\test1\\areas\\admin\\controllers\\statisticscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C63C6BB8-43A9-451E-9BDA-468B05975176}|test1\\test1.csproj|solutionrelative:test1\\areas\\admin\\controllers\\statisticscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,7 +98,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,100 +110,268 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Account.cs",
-              "DocumentMoniker": "D:\\ASP.NET\\test1\\test1\\Models\\AccountModel\\Account.cs",
-              "RelativeDocumentMoniker": "test1\\Models\\AccountModel\\Account.cs",
-              "ToolTip": "D:\\ASP.NET\\test1\\test1\\Models\\AccountModel\\Account.cs",
-              "RelativeToolTip": "test1\\Models\\AccountModel\\Account.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T17:18:15.229Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "MyAccountAPIController.cs",
-              "DocumentMoniker": "D:\\ASP.NET\\test1\\test1\\Controllers\\MyAccountAPIController.cs",
-              "RelativeDocumentMoniker": "test1\\Controllers\\MyAccountAPIController.cs",
-              "ToolTip": "D:\\ASP.NET\\test1\\test1\\Controllers\\MyAccountAPIController.cs",
-              "RelativeToolTip": "test1\\Controllers\\MyAccountAPIController.cs",
-              "ViewState": "AgIAAIYAAAAAAAAAAAAAAHABAAAhAAAAAAAAAA==",
+              "Title": "QlbanQuanAoContext.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\Clothing_shop\\Clothing_shop\\Backend\\test1\\test1\\Models\\QlbanQuanAoContext.cs",
+              "RelativeDocumentMoniker": "test1\\Models\\QlbanQuanAoContext.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\Clothing_shop\\Clothing_shop\\Backend\\test1\\test1\\Models\\QlbanQuanAoContext.cs",
+              "RelativeToolTip": "test1\\Models\\QlbanQuanAoContext.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAuwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T16:46:07.454Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AccountAPIController.cs",
-              "DocumentMoniker": "D:\\ASP.NET\\test1\\test1\\Controllers\\AccountAPIController.cs",
-              "RelativeDocumentMoniker": "test1\\Controllers\\AccountAPIController.cs",
-              "ToolTip": "D:\\ASP.NET\\test1\\test1\\Controllers\\AccountAPIController.cs",
-              "RelativeToolTip": "test1\\Controllers\\AccountAPIController.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T16:46:02.909Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\ASP.NET\\test1\\test1\\Program.cs",
-              "RelativeDocumentMoniker": "test1\\Program.cs",
-              "ToolTip": "D:\\ASP.NET\\test1\\test1\\Program.cs",
-              "RelativeToolTip": "test1\\Program.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABAAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T16:41:35.82Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "PayPalService.cs",
-              "DocumentMoniker": "D:\\ASP.NET\\test1\\test1\\Service\\PayPalService.cs",
-              "RelativeDocumentMoniker": "test1\\Service\\PayPalService.cs",
-              "ToolTip": "D:\\ASP.NET\\test1\\test1\\Service\\PayPalService.cs",
-              "RelativeToolTip": "test1\\Service\\PayPalService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T16:41:32.319Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "RefundRequest.cs",
-              "DocumentMoniker": "D:\\ASP.NET\\test1\\test1\\Models\\Payment\\RefundRequest.cs",
-              "RelativeDocumentMoniker": "test1\\Models\\Payment\\RefundRequest.cs",
-              "ToolTip": "D:\\ASP.NET\\test1\\test1\\Models\\Payment\\RefundRequest.cs",
-              "RelativeToolTip": "test1\\Models\\Payment\\RefundRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T16:38:45.037Z"
+              "WhenOpened": "2025-06-04T15:39:52.035Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "CheckoutAPIController.cs",
-              "DocumentMoniker": "D:\\ASP.NET\\test1\\test1\\Controllers\\CheckoutAPIController.cs",
-              "RelativeDocumentMoniker": "test1\\Controllers\\CheckoutAPIController.cs",
-              "ToolTip": "D:\\ASP.NET\\test1\\test1\\Controllers\\CheckoutAPIController.cs",
-              "RelativeToolTip": "test1\\Controllers\\CheckoutAPIController.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAAC8AAABDAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\Clothing_shop\\Clothing_shop\\Backend\\test1\\test1\\Program.cs",
+              "RelativeDocumentMoniker": "test1\\Program.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\Clothing_shop\\Clothing_shop\\Backend\\test1\\test1\\Program.cs",
+              "RelativeToolTip": "test1\\Program.cs",
+              "ViewState": "AgIAAG4AAAAAAAAAAAAgwH4AAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T16:25:42.154Z",
+              "WhenOpened": "2025-04-24T01:10:16.56Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "PaymentController.cs",
-              "DocumentMoniker": "D:\\ASP.NET\\test1\\test1\\Controllers\\PaymentController.cs",
-              "RelativeDocumentMoniker": "test1\\Controllers\\PaymentController.cs",
-              "ToolTip": "D:\\ASP.NET\\test1\\test1\\Controllers\\PaymentController.cs",
-              "RelativeToolTip": "test1\\Controllers\\PaymentController.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAAAJcAAAA3AAAAAAAAAA==",
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\Clothing_shop\\Clothing_shop\\Backend\\test1\\test1\\appsettings.json",
+              "RelativeDocumentMoniker": "test1\\appsettings.json",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\Clothing_shop\\Clothing_shop\\Backend\\test1\\test1\\appsettings.json",
+              "RelativeToolTip": "test1\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-23T17:06:25.917Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "JwtService.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\Clothing_shop\\Clothing_shop\\Backend\\test1\\test1\\Service\\JwtService.cs",
+              "RelativeDocumentMoniker": "test1\\Service\\JwtService.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\Clothing_shop\\Clothing_shop\\Backend\\test1\\test1\\Service\\JwtService.cs",
+              "RelativeToolTip": "test1\\Service\\JwtService.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAAANUAAABwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T16:20:33.226Z"
+              "WhenOpened": "2025-04-23T17:04:58.477Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PasswordHashHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\Clothing_shop\\Clothing_shop\\Backend\\test1\\test1\\Handlers\\PasswordHashHandler.cs",
+              "RelativeDocumentMoniker": "test1\\Handlers\\PasswordHashHandler.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\Clothing_shop\\Clothing_shop\\Backend\\test1\\test1\\Handlers\\PasswordHashHandler.cs",
+              "RelativeToolTip": "test1\\Handlers\\PasswordHashHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T17:04:38.22Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AccountAPIController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\Clothing_shop\\Clothing_shop\\Backend\\test1\\test1\\Controllers\\AccountAPIController.cs",
+              "RelativeDocumentMoniker": "test1\\Controllers\\AccountAPIController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\Clothing_shop\\Clothing_shop\\Backend\\test1\\test1\\Controllers\\AccountAPIController.cs",
+              "RelativeToolTip": "test1\\Controllers\\AccountAPIController.cs",
+              "ViewState": "AgIAAF8AAAAAAAAAAAAwwF4AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T17:01:23.64Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserAccountAPIController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\Clothing_shop\\Clothing_shop\\Backend\\test1\\test1\\Controllers\\UserAccountAPIController.cs",
+              "RelativeDocumentMoniker": "test1\\Controllers\\UserAccountAPIController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\Clothing_shop\\Clothing_shop\\Backend\\test1\\test1\\Controllers\\UserAccountAPIController.cs",
+              "RelativeToolTip": "test1\\Controllers\\UserAccountAPIController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T17:01:21.417Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LoaiSPAPIController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\Clothing_shop\\Clothing_shop\\Backend\\test1\\test1\\Controllers\\LoaiSPAPIController.cs",
+              "RelativeDocumentMoniker": "test1\\Controllers\\LoaiSPAPIController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\Clothing_shop\\Clothing_shop\\Backend\\test1\\test1\\Controllers\\LoaiSPAPIController.cs",
+              "RelativeToolTip": "test1\\Controllers\\LoaiSPAPIController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T17:01:20.289Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MyAccountAPIController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\Clothing_shop\\Clothing_shop\\Backend\\test1\\test1\\Controllers\\MyAccountAPIController.cs",
+              "RelativeDocumentMoniker": "test1\\Controllers\\MyAccountAPIController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\Clothing_shop\\Clothing_shop\\Backend\\test1\\test1\\Controllers\\MyAccountAPIController.cs",
+              "RelativeToolTip": "test1\\Controllers\\MyAccountAPIController.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAIBJwBkAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T16:58:03.97Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ContractService.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\Clothing_shop\\Clothing_shop\\Backend\\test1\\test1\\Service\\ContractService.cs",
+              "RelativeDocumentMoniker": "test1\\Service\\ContractService.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\Clothing_shop\\Clothing_shop\\Backend\\test1\\test1\\Service\\ContractService.cs",
+              "RelativeToolTip": "test1\\Service\\ContractService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T17:01:11.112Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PayPalService.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\Clothing_shop\\Clothing_shop\\Backend\\test1\\test1\\Service\\PayPalService.cs",
+              "RelativeDocumentMoniker": "test1\\Service\\PayPalService.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\Clothing_shop\\Clothing_shop\\Backend\\test1\\test1\\Service\\PayPalService.cs",
+              "RelativeToolTip": "test1\\Service\\PayPalService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T16:57:56.39Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "TwilioService.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\Clothing_shop\\Clothing_shop\\Backend\\test1\\test1\\Service\\TwilioService.cs",
+              "RelativeDocumentMoniker": "test1\\Service\\TwilioService.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\Clothing_shop\\Clothing_shop\\Backend\\test1\\test1\\Service\\TwilioService.cs",
+              "RelativeToolTip": "test1\\Service\\TwilioService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T16:57:55.612Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PaymentService.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\Clothing_shop\\Clothing_shop\\Backend\\test1\\test1\\Service\\PaymentService.cs",
+              "RelativeDocumentMoniker": "test1\\Service\\PaymentService.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\Clothing_shop\\Clothing_shop\\Backend\\test1\\test1\\Service\\PaymentService.cs",
+              "RelativeToolTip": "test1\\Service\\PaymentService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T16:57:54.109Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ProductAPIController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\Clothing_shop\\Clothing_shop\\Backend\\test1\\test1\\Controllers\\ProductAPIController.cs",
+              "RelativeDocumentMoniker": "test1\\Controllers\\ProductAPIController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\Clothing_shop\\Clothing_shop\\Backend\\test1\\test1\\Controllers\\ProductAPIController.cs",
+              "RelativeToolTip": "test1\\Controllers\\ProductAPIController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAIBQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T16:04:45.895Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "PaymentController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\Clothing_shop\\Clothing_shop\\Backend\\test1\\test1\\Controllers\\PaymentController.cs",
+              "RelativeDocumentMoniker": "test1\\Controllers\\PaymentController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\Clothing_shop\\Clothing_shop\\Backend\\test1\\test1\\Controllers\\PaymentController.cs",
+              "RelativeToolTip": "test1\\Controllers\\PaymentController.cs",
+              "ViewState": "AgIAAKoAAAAAAAAAAIBJwLYAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T15:00:36.903Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "EscrowController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\Clothing_shop\\Clothing_shop\\Backend\\test1\\test1\\Controllers\\EscrowController.cs",
+              "RelativeDocumentMoniker": "test1\\Controllers\\EscrowController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\Clothing_shop\\Clothing_shop\\Backend\\test1\\test1\\Controllers\\EscrowController.cs",
+              "RelativeToolTip": "test1\\Controllers\\EscrowController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T15:00:35.464Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\Clothing_shop\\Clothing_shop\\Backend\\test1\\test1\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "test1\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\Clothing_shop\\Clothing_shop\\Backend\\test1\\test1\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "test1\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAIBJwB0AAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T15:00:33.697Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "CartAPIController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\Clothing_shop\\Clothing_shop\\Backend\\test1\\test1\\Controllers\\CartAPIController.cs",
+              "RelativeDocumentMoniker": "test1\\Controllers\\CartAPIController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\Clothing_shop\\Clothing_shop\\Backend\\test1\\test1\\Controllers\\CartAPIController.cs",
+              "RelativeToolTip": "test1\\Controllers\\CartAPIController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAIBJwH4BAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T14:19:15.615Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "OrdersAPIController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\Clothing_shop\\Clothing_shop\\Backend\\test1\\test1\\Areas\\admin\\Controllers\\OrdersAPIController.cs",
+              "RelativeDocumentMoniker": "test1\\Areas\\admin\\Controllers\\OrdersAPIController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\Clothing_shop\\Clothing_shop\\Backend\\test1\\test1\\Areas\\admin\\Controllers\\OrdersAPIController.cs",
+              "RelativeToolTip": "test1\\Areas\\admin\\Controllers\\OrdersAPIController.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T14:16:04.184Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "CategoryAPIController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\Clothing_shop\\Clothing_shop\\Backend\\test1\\test1\\Areas\\admin\\Controllers\\CategoryAPIController.cs",
+              "RelativeDocumentMoniker": "test1\\Areas\\admin\\Controllers\\CategoryAPIController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\Clothing_shop\\Clothing_shop\\Backend\\test1\\test1\\Areas\\admin\\Controllers\\CategoryAPIController.cs",
+              "RelativeToolTip": "test1\\Areas\\admin\\Controllers\\CategoryAPIController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T14:16:02.479Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "BrandAPIController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\Clothing_shop\\Clothing_shop\\Backend\\test1\\test1\\Areas\\admin\\Controllers\\BrandAPIController.cs",
+              "RelativeDocumentMoniker": "test1\\Areas\\admin\\Controllers\\BrandAPIController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\Clothing_shop\\Clothing_shop\\Backend\\test1\\test1\\Areas\\admin\\Controllers\\BrandAPIController.cs",
+              "RelativeToolTip": "test1\\Areas\\admin\\Controllers\\BrandAPIController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T14:15:59.873Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "StatisticsController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\Clothing_shop\\Clothing_shop\\Backend\\test1\\test1\\Areas\\admin\\Controllers\\StatisticsController.cs",
+              "RelativeDocumentMoniker": "test1\\Areas\\admin\\Controllers\\StatisticsController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\Clothing_shop\\Clothing_shop\\Backend\\test1\\test1\\Areas\\admin\\Controllers\\StatisticsController.cs",
+              "RelativeToolTip": "test1\\Areas\\admin\\Controllers\\StatisticsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEcBAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T13:55:28.612Z"
             }
           ]
         }

@@ -286,6 +286,7 @@ namespace Test.Controllers
 				UserName = r.User != null ? r.User.Fullname : "Anonymous",
 				ReviewDate = r.ReviewDate,
 				Rating = r.Rating,
+				UserId = r.UserId,
 				ReviewText = r.ReviewText,
 				Media = r.ReviewMedia.Select(m => new
 				{
@@ -321,6 +322,97 @@ namespace Test.Controllers
 		//	_context.SaveChanges();
 		//	return Ok(new { success = true, message = "Order shipping address updated successfully" });
 		//}
+		[HttpGet("HasReviewed/{productId}")]
+		public async Task<IActionResult> HasReviewed(int productId)
+		{
+			if (productId <= 0)
+				return BadRequest("Invalid product id.");
+
+			int currentUserId = GetCurrentCustomerId();
+			if (currentUserId == -1)
+				return Unauthorized("User is not authenticated.");
+
+			bool reviewed = await _context.Reviews
+				.AnyAsync(r => r.ProductId == productId && r.UserId == currentUserId);
+
+			return Ok(new { reviewed });
+		}
+		[HttpPut("UpdateReview")]
+		public async Task<IActionResult> UpdateReview([FromForm] ReviewCreateModel model)
+		{
+			if (model == null)
+				return BadRequest("Dữ liệu review không hợp lệ");
+
+			// Lấy id người dùng từ token
+			int currentUserId = GetCurrentCustomerId();
+			if (currentUserId <= 0)
+				return Unauthorized("Người dùng không hợp lệ");
+
+			// Tìm review của người dùng cho sản phẩm đó
+			var existingReview = await _context.Reviews
+				.Include(r => r.ReviewMedia)
+				.FirstOrDefaultAsync(r => r.ProductId == model.ProductId && r.UserId == currentUserId);
+
+			if (existingReview == null)
+				return NotFound("Review không tồn tại");
+
+			// Cập nhật thông tin review
+			existingReview.Rating = (byte)model.Rating;
+			existingReview.ReviewText = model.ReviewText;
+			existingReview.ReviewDate = DateTime.Now; // cập nhật lại thời gian chỉnh sửa
+
+			// Nếu có file media mới được gửi lên, cập nhật lại media
+			if (model.MediaFiles != null && model.MediaFiles.Any())
+			{
+				// Xóa media cũ
+				_context.ReviewMedia.RemoveRange(existingReview.ReviewMedia);
+				existingReview.ReviewMedia = new List<ReviewMedium>();
+
+				// Thư mục lưu file (ví dụ: wwwroot/uploads)
+				string uploadsFolder = Path.Combine(_environment.WebRootPath, "uploads");
+				if (!Directory.Exists(uploadsFolder))
+				{
+					Directory.CreateDirectory(uploadsFolder);
+				}
+
+				foreach (var file in model.MediaFiles)
+				{
+					// (Tùy chọn) Kiểm tra định dạng và kích thước file
+					if (!new[] { "image/jpeg", "image/png", "video/mp4", "video/webm" }
+							.Contains(file.ContentType))
+					{
+						continue;
+					}
+					if (file.Length > 15 * 1024 * 1024)
+					{
+						continue;
+					}
+
+					// Tạo tên file duy nhất
+					string uniqueFileName = Guid.NewGuid().ToString() + "_" + file.FileName;
+					string filePath = Path.Combine(uploadsFolder, uniqueFileName);
+
+					using (var stream = new FileStream(filePath, FileMode.Create))
+					{
+						await file.CopyToAsync(stream);
+					}
+
+					// Tạo đối tượng ReviewMedia mới với đường dẫn file
+					var reviewMedia = new ReviewMedium
+					{
+						ReviewId = existingReview.ReviewId,
+						MediaType = file.ContentType,
+						MediaUrl = "/uploads/" + uniqueFileName
+					};
+
+					existingReview.ReviewMedia.Add(reviewMedia);
+				}
+			}
+
+			await _context.SaveChangesAsync();
+
+			return Ok(new { success = true, message = "Review đã được cập nhật thành công." });
+		}
 
 		#endregion
 

@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ASP.NET\\test1\\test1\\test1.csproj": {}
+    "C:\\Users\\Admin\\Downloads\\Clothing_shop\\Clothing_shop\\Backend\\test1\\test1\\test1.csproj": {}
   },
   "projects": {
-    "D:\\ASP.NET\\test1\\test1\\test1.csproj": {
+    "C:\\Users\\Admin\\Downloads\\Clothing_shop\\Clothing_shop\\Backend\\test1\\test1\\test1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ASP.NET\\test1\\test1\\test1.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\Downloads\\Clothing_shop\\Clothing_shop\\Backend\\test1\\test1\\test1.csproj",
         "projectName": "test1",
-        "projectPath": "D:\\ASP.NET\\test1\\test1\\test1.csproj",
-        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-        "outputPath": "D:\\ASP.NET\\test1\\test1\\obj\\",
+        "projectPath": "C:\\Users\\Admin\\Downloads\\Clothing_shop\\Clothing_shop\\Backend\\test1\\test1\\test1.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Admin\\Downloads\\Clothing_shop\\Clothing_shop\\Backend\\test1\\test1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -45,7 +44,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -78,6 +77,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[9.0.1, )"
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.21.0, )"
             },
             "Nethereum.Contracts": {
               "target": "Package",
@@ -135,7 +138,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

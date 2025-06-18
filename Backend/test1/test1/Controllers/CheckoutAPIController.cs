@@ -211,7 +211,7 @@ namespace Test.Controllers
 
 				// Tìm đơn hàng đã được tạo ở bước Checkout (đơn hàng có Address = "loading")
 				var activeOrder = _context.Orders
-					.FirstOrDefault(o => o.UserId == customerId && o.Active == true && o.Address == "loading" && o.IsQuickPurchase == false);
+					.FirstOrDefault(o =>  o.UserId == customerId && o.Active == true && o.Address == "loading" && o.IsQuickPurchase == false);
 
 				if (activeOrder != null)
 				{
