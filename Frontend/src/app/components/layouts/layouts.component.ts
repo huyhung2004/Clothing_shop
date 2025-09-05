@@ -4,15 +4,22 @@ import { Router, RouterModule, RouterOutlet } from '@angular/router';
 import { UseraccessComponent } from '../useraccess/useraccess.component';
 import { HeaderComponent } from '../header/header.component';
 import { FooterComponent } from '../footer/footer.component';
-
+import { ChatbotComponent } from '../chatbot/chatbot.component';
+import { CommonModule } from '@angular/common';
 @Component({
   selector: 'app-layouts',
-  imports: [RouterModule, RouterOutlet, HeaderComponent, FooterComponent], // Import RouterModule để sử dụng router-outlet
+  standalone: true, 
+  imports: [RouterModule,CommonModule, RouterOutlet, HeaderComponent, FooterComponent,ChatbotComponent], // Import RouterModule để sử dụng router-outlet
   templateUrl: './layouts.component.html',
-  styleUrls: ['./layouts.component.css'],
+  styleUrls: ['./layouts.component.scss'],
 })
 export class LayoutsComponent {
   // Mảng lưu các phần tử <link> đã thêm vào head
+  showChat = false;
+  toggleChat() {
+    this.showChat = !this.showChat;
+    console.log('showChat =', this.showChat);
+  }
   private linkElements: HTMLLinkElement[] = [];
 
   constructor(private renderer: Renderer2) {}

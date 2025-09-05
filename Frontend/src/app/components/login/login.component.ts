@@ -11,7 +11,7 @@ import {
 } from '../../services/auth.service';
 import { TokenService } from '../../services/token.service';
 import { SocialLoginModule } from 'angularx-social-login';
-
+import { JwtHelperService } from '@auth0/angular-jwt';
 @Component({
   selector: 'app-login',
   standalone: true,
@@ -27,7 +27,8 @@ export class LoginComponent {
     private accountService: AccountService,
     private tokenService: TokenService,
     private authService: AuthService,
-    private router: Router
+    private router: Router,
+    private jwtHelper: JwtHelperService
   ) {}
 
   // Hỗ trợ chỉ cho phép nhập số và giới hạn độ dài số điện thoại
@@ -48,10 +49,16 @@ export class LoginComponent {
 
     this.accountService.login(payload).subscribe({
       next: (response: any) => {
-        this.tokenService.setToken(response.token);
         console.log('Response:', response);
         // Bạn có thể chuyển hướng hoặc cập nhật trạng thái đăng nhập tại đây.
-        this.router.navigate(['/home']);
+        const decoded = this.jwtHelper.decodeToken(response.token);
+        console.log('Decoded token:', decoded);
+
+        if (decoded?.role === 'Admin') {
+          this.router.navigate(['/adminDashboard/welcome']);
+        } else {
+          this.router.navigate(['/home']);
+        }
       },
       error: (error: any) => {
         console.error('Login error:', error);
@@ -63,7 +70,6 @@ export class LoginComponent {
   onFacebookLogin(): void {
     this.authService.loginWithFacebook().subscribe({
       next: (response: any) => {
-        this.tokenService.setToken(response.token);
         // Chuyển hướng tới trang chủ hoặc trang cần thiết
         this.router.navigate(['/home']);
       },

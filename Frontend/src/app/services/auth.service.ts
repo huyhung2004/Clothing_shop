@@ -26,19 +26,17 @@ export class AuthService {
   ) {}
 
   // Hàm đăng nhập Facebook sử dụng OAuth
+  // auth.service.ts
   loginWithFacebook(): Observable<FacebookLoginResponse> {
-    return from(
-      this.socialAuthService.signIn(FacebookLoginProvider.PROVIDER_ID)
-    ).pipe(
-      // Sau khi đăng nhập thành công, gửi access token của Facebook lên backend
+    return from(this.socialAuthService.signIn(FacebookLoginProvider.PROVIDER_ID)).pipe(
       switchMap((user: SocialUser) => {
         return this.http.post<FacebookLoginResponse>(
           'https://localhost:7163/api/auth/facebook',
-          {
-            accessToken: user.authToken,
-          }
+          { accessToken: user.authToken },          
+          { withCredentials: true }                 
         );
       })
     );
   }
+
 }

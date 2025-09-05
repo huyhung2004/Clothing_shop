@@ -613,3 +613,7 @@ C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\obj\Deb
 C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\obj\Debug\net8.0\test1.csproj.Up2Date
 C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\obj\Debug\net8.0\test1.genruntimeconfig.cache
 C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\obj\Debug\net8.0\ref\test1.dll
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\obj\Debug\net8.0\rjimswa.dswa.cache.json
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+C:\Users\Admin\Downloads\Clothing_shop\Clothing_shop\Backend\test1\test1\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
